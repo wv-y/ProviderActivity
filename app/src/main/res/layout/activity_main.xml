@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+    android:id="@+id/edit_name"
+    android:layout_width="match_parent"
+    android:hint="word"
+    android:layout_height="50dp" />
+
+    <EditText
+        android:id="@+id/edit_meaing"
+        android:layout_width="match_parent"
+        android:hint="meaning"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:id="@+id/edit_prounce"
+        android:layout_width="match_parent"
+        android:hint="prounce"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/inster_but"
+        android:text="插入"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/delete_but"
+        android:text="删除"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/query_but"
+        android:text="查找"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/update_but"
+        android:text="改变"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
